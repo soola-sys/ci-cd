@@ -1,0 +1,21 @@
+name: Validate Branch Name on Push
+
+on:
+  push:
+    branches:
+      - '**'  # Runs on all branches
+
+jobs:
+  validate-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get branch name
+        run: echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+
+      - name: Validate branch name
+        run: |
+          if [[ ! "$BRANCH_NAME" =~ ^(feature)/[a-z0-9._-]+$ ]]; then
+            echo "❌ ERROR: Invalid branch name '$BRANCH_NAME'."
+            echo "Branch names must start with 'feature/' followed by a descriptive name."
+            exit 1
+          fi
