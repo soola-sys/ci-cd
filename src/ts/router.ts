@@ -49,7 +49,7 @@ class Router {
   }
 
   static changeLinks() {
-    const links = document.querySelectorAll('[href^="/"]');
+    let links = document.querySelectorAll('[href^="/"]');
     links.forEach((link) => {
       if (!link.classList.contains('link-changed')) {
         link.addEventListener('click', (e) => {
