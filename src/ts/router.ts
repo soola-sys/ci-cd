@@ -70,7 +70,7 @@ class Router {
     window.addEventListener('popstate', () => {
       Router.render(new URL(window.location.href).pathname);
     });
-    let page = new URL(window.location.href).pathname;
+    const page = new URL(window.location.href).pathname;
     Router.render(page);
   }
 }
