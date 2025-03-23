@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d74c54f3-4c15-4497-af91-3d7849be5c85" name="Changes" comment="feat: test workflow branch restriction">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <updated>1742492310273</updated>
       <workItem from="1742492311347" duration="15269000" />
       <workItem from="1742656671391" duration="5924000" />
-      <workItem from="1742725163606" duration="10323000" />
+      <workItem from="1742725163606" duration="11478000" />
     </task>
     <task id="LOCAL-00001" summary="start: initial commit">
       <option name="closed" value="true" />
