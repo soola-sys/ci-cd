@@ -586,14 +586,14 @@ h2 {
 }
 
 .nav__link {
-  color: #909090;
+  color: #0A0A0A;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .nav__link:hover, .nav__link:active {
   text-decoration: none;
-  color: #186049;
+  color: #04100D;
   outline: none;
 }
 
