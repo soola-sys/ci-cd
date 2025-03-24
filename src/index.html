@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--  <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
   <link rel="icon" href="./assets/svg/empty-cart-icon.svg">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500&display=swap">
+<!--  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500&display=swap">-->
   <title>Online-store</title>
 </head>
 <body class="body">
   <div class="body__wrapper">
     <header class="header">
       <div class="header__container container">
-        <a class="header__logo" href="/c atalog">
+        <a class="header__logo" href="/catalog">
           <h1 class="header__logo-text">Online<br>store</h1>
         </a>
         <nav class="nav">
@@ -38,7 +38,7 @@
     </main>
     <section id="promo" class="promo">
       <div class="container">
-        <img class="promo__photo" src="assets/img/eucalypt.webp" alt="eucalypt">
+        <img loading="lazy" class="promo__photo" src="assets/img/eucalypt.webp" alt="eucalypt" width="208" height="350">
         <div class="promo__container">
           <h3 class="promo__title">Get <span>10% OFF</span> on your purchase</h3>
           <div class="promo__descr">Use promo codes:</div>
@@ -342,7 +342,7 @@
       <!-- empty cart page -->
       <template id="empty-cart">
         <section class="empty-cart-page page">
-          <img class="empty-cart-page__img" src="./assets/svg/empty-cart-icon.svg" alt="empty cart icon">
+          <img class="empty-cart-page__img" src="./assets/svg/empty-cart-icon.svg"  loading="lazy" alt="empty cart icon">
           <div class="empty-cart-page__block">
             <p class="empty-cart-page__text">Your cart is empty.</p>
             <a class="empty-cart__btn button" href="/catalog">Go to catalog</a>
