@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d61c337d-b3fa-4895-b4c4-5984f3c8a9ba" name="Changes" comment="feat: test workflow branch restriction">
+    <list default="true" id="d61c337d-b3fa-4895-b4c4-5984f3c8a9ba" name="Changes" comment="feat: fix: a11y distance between input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/abstracts/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +24,20 @@
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="feat: fix: a11y distance between input">
+      <option name="closed" value="true" />
+      <created>1742800795614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742800795614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: test workflow branch restriction" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: test workflow branch restriction" />
+    <MESSAGE value="feat: fix: a11y distance between input" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fix: a11y distance between input" />
   </component>
 </project>
