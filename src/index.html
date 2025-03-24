@@ -7,15 +7,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" href="./assets/svg/empty-cart-icon.svg">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500&display=swap"
-    rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500&display=swap">
   <title>Online-store</title>
 </head>
 <body class="body">
   <div class="body__wrapper">
     <header class="header">
       <div class="header__container container">
-        <a class="header__logo" href="/catalog">
+        <a class="header__logo" href="/c atalog">
           <h1 class="header__logo-text">Online<br>store</h1>
         </a>
         <nav class="nav">
@@ -39,7 +38,7 @@
     </main>
     <section id="promo" class="promo">
       <div class="container">
-        <img class="promo__photo" src="assets/img/eucalypt.png" alt="eucalypt">
+        <img loading="lazy" class="promo__photo" src="assets/img/eucalypt.webp" alt="eucalypt">
         <div class="promo__container">
           <h3 class="promo__title">Get <span>10% OFF</span> on your purchase</h3>
           <div class="promo__descr">Use promo codes:</div>
@@ -71,7 +70,7 @@
         <div class="footer__column">
           <p class="footer__title">RS School</p>
           <ul class="footer__list">
-            <li class="footer__item"><a href="https://rs.school/js/" target="_blank"><img class="rs-school__img" alt="RS School logo" src="./assets/svg/rs_school.svg" width="80"></a>
+            <li class="footer__item"><a href="https://rs.school/js/" target="_blank"><img class="rs-school__img" loading="lazy" alt="RS School logo" src="./assets/svg/rs_school.svg" width="80" height="80"></a>
             </li>
             <li class="footer__item"><span>2022</span>
             </li>
@@ -337,7 +336,6 @@
       </div>
       <h2 class="page-title">Cart</h2>
       <div class="cart-page__container">
-
       </div>
     </section>
   </template>
